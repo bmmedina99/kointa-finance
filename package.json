@@ -1,6 +1,6 @@
 {
   "name": "nextjs-template",
-  "description": "Plantilla base de Next.js con TailwindCSS y TypeScript preconfigurados",
+  "description": "Plantilla base de Next.js App Router con TailwindCSS y TypeScript preconfigurados",
   "version": "0.0.1",
   "type": "module",
   "private": true,
@@ -12,18 +12,18 @@
     "lint": "pnpm biome lint --write ."
   },
   "dependencies": {
-    "next": "15.3.2",
+    "next": "15.3.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@tailwindcss/postcss": "4.1.8",
-    "@types/node": "22.15.24",
+    "@types/node": "22.15.29",
     "@types/react": "19.1.6",
-    "@types/react-dom": "19.1.5",
+    "@types/react-dom": "19.1.6",
     "tailwindcss": "4.1.8",
     "typescript": "5.8.3"
   },
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.1"
 }
