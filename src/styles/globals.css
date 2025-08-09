@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-rich-black: #030014;
-  --color-russian-violet: #12042d;
-  --color-rebecca-purple: #5230a3;
-  --color-periwinkle: #c7c7ff;
+  --color-brandels-blue: oklch(57% 0.21 258.2);
+  --color-aquamarine: oklch(80% 0.16 164.8);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+  }
 }
