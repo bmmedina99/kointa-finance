@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-template",
-  "description": "Plantilla base de Next.js App Router con TailwindCSS y TypeScript preconfigurados",
-  "version": "0.0.1",
+  "name": "kointa-finance",
+  "description": "Aplicación web para la gestión de finanzas personales, diseñada para ayudar a las personas a llevar un control claro y visual de sus ingresos, gastos y categorías.",
+  "version": "0.0.0",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,6 +10,10 @@
     "start": "next start --port 5000",
     "fmt": "pnpm biome format --write .",
     "lint": "pnpm biome lint --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmmedina99/kointa-finance.git"
   },
   "dependencies": {
     "next": "15.3.3",
