@@ -8,6 +8,12 @@
 
 Ofrecer una herramienta clara, rápida y agradable para gestionar las finanzas personales sin la complejidad de las aplicaciones bancarias tradicionales.
 
+## Tecnologías utilizadas
+
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Next.js, Node.js
+- **Base de datos**: PostgreSQL
+
 ---
 
 ## Licencia
