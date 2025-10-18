@@ -1,7 +1,7 @@
 {
   "name": "kointa-finance",
   "description": "Aplicación web para la gestión de finanzas personales, diseñada para ayudar a las personas a llevar un control claro y visual de sus ingresos, gastos y categorías.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "private": true,
   "scripts": {
