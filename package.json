@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "next dev --turbopack --port 4000",
     "build": "next build",
-    "release": "pnpm dlx semantic-release",
     "start": "next start --port 5000",
+    "release": "pnpm dlx semantic-release",
     "fmt": "pnpm biome format --write .",
     "lint": "pnpm biome lint --write ."
   },
