@@ -11,7 +11,7 @@ Ofrecer una herramienta clara, rápida y agradable para gestionar las finanzas p
 ## Tecnologías utilizadas
 
 - **Frontend**: React, Tailwind CSS
-- **Backend**: Next.js, Node.js
+- **Backend**: NestJS
 - **Base de datos**: PostgreSQL
 
 ---
