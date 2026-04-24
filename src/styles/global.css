@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brandels-100: oklch(0.57 0.21 258.2);
+  --color-aqua-100: oklch(0.8 0.16 164.8);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color-slate-800);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  section h1 {
+    font-size: clamp(1.875rem, 8vw, 3.75rem);
+    transition: font-family 0.15s ease-out;
+  }
+}
