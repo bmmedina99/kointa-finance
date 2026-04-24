@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Main = () => {
   return (
     <main className='flex flex-col min-h-dvh'>
-      <section className='bg-gradient-to-tr from-russian-violet to-rebecca-purple text-white'>
+      <section className='bg-linear-to-tr from-russian-violet to-rebecca-purple text-white'>
         <div className='container mx-auto px-4 py-20 text-center'>
           <h2 className='text-periwinkle text-4xl font-extrabold mb-4'>
             Next.js Template
